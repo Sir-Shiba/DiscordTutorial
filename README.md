@@ -17,3 +17,6 @@ Tired of Python? This is a sample Discord Bot implemented in Node.js and JavaScr
 2. Run `npm install` in the root directory (same level as `package.json`)
 3. Create a .env file, copying the format of the .env.example file, and add the bot token
 4. Run `npm start`
+
+## Modifying This Template Bot
+* Edit `index.js`, or create your own file structure
