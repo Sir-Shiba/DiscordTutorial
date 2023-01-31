@@ -1,0 +1,25 @@
+{
+  "name": "discordtutorial",
+  "version": "1.0.0",
+  "description": "This is code for a discord bot tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sir-Shiba/DiscordTutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sir-Shiba/DiscordTutorial/issues"
+  },
+  "homepage": "https://github.com/Sir-Shiba/DiscordTutorial#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  },
+  "type": "module"
+}
