@@ -22,7 +22,15 @@ const client = new Discord.Client({
 const BOT_TOKEN = process.env.TOKEN;
 
 // something nice for debugging: when the bot logs in, print out a ready statement to the console
+if (!client) {
+    throw new Error("Client is undefined!");
+}
+
+
 client.on("ready", () => {
+    if (!client.user) {
+        throw new Error("Client.user is undefined!");
+    }
     console.log(`Logged in as ${client.user.tag}!`);
 });
 
