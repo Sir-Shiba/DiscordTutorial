@@ -10,21 +10,27 @@ token = os.getenv("token")
 #   discord intents
 client = commands.Bot(command_prefix="=", intents=discord.Intents.all())
 
-
 @client.event
 async def on_ready():
     await client.change_presence(activity=discord.Game('ping pong mode'))
     await client.tree.sync()
     print("Successful Start")
+    
 
 @client.event
 async def on_message(ctx):
+    print(f"Channel: {ctx.channel}")
+    print(f"Channel Id: {ctx.channel.id}")
+    print(f"Author: {ctx.author}")
+    print(f"Author Id: {ctx.author.id}")
+    print(f"Content: {ctx.content}")
+    
     if ctx.content == 'ping':
-        ctx.message.reply("pong!")
+        await ctx.reply("pong!")
 
 #   this is a funny verison of pong
 @client.event
-async def on_message(ctx):
+async def on_message1(ctx):
     if ctx.content == 'start pong':
         cont = True
         await ctx.channel.send("ping!")
