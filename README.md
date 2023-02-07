@@ -11,4 +11,4 @@ This repository contains several different branches.
 * [ICSSC Discord Workshop Presentation](https://docs.google.com/presentation/d/1ANQEEl2yFph8veWyNyqpTixPcvACTuREyu_jNiPy4V0/edit?usp=sharing)
 * [YouTube Playlist of Discord.py Tutorials](https://www.youtube.com/playlist?list=PLuwK012tUglquEYi64dm6FtMRmXx9SpfJ)
 * [Discord.py API Reference](https://discordpy.readthedocs.io/en/stable/api.html)
-* [Slides] (https://docs.google.com/presentation/d/1ANQEEl2yFph8veWyNyqpTixPcvACTuREyu_jNiPy4V0/edit?usp=sharing)
+* [Slides](https://docs.google.com/presentation/d/1ANQEEl2yFph8veWyNyqpTixPcvACTuREyu_jNiPy4V0/edit?usp=sharing)
